@@ -1,0 +1,258 @@
+[0.000000] (-) TimerEvent: {}
+[0.001120] (imu-ros2node) JobQueued: {'identifier': 'imu-ros2node', 'dependencies': OrderedDict()}
+[0.001482] (teleop_subscriber) JobQueued: {'identifier': 'teleop_subscriber', 'dependencies': OrderedDict()}
+[0.001817] (imu-ros2node) JobStarted: {'identifier': 'imu-ros2node'}
+[0.018139] (teleop_subscriber) JobStarted: {'identifier': 'teleop_subscriber'}
+[0.044916] (imu-ros2node) JobProgress: {'identifier': 'imu-ros2node', 'progress': 'cmake'}
+[0.048516] (imu-ros2node) Command: {'cmd': ['/usr/bin/cmake', '/root/rf-data-collection/src/imu-ros2node', '-DCMAKE_INSTALL_PREFIX=/root/rf-data-collection/install/imu-ros2node'], 'cwd': '/root/rf-data-collection/build/imu-ros2node', 'env': OrderedDict([('SHELL', '/bin/bash'), ('ROS_VERSION', '2'), ('COLORTERM', 'truecolor'), ('TERM_PROGRAM_VERSION', '1.88.1'), ('CONDA_EXE', '/root/miniconda3/bin/conda'), ('ROS_PYTHON_VERSION', '3'), ('PWD', '/root/rf-data-collection/build/imu-ros2node'), ('LOGNAME', 'root'), ('XDG_SESSION_TYPE', 'tty'), ('CONDA_PREFIX', '/root/miniconda3'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/node'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('GIT_ASKPASS', '/root/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/extensions/git/dist/askpass.sh'), ('SSH_CONNECTION', 'fe80::14da:94a5:e690:d416%wlan0 56561 fe80::5080:6366:8d11:131%wlan0 22'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XDG_SESSION_CLASS', 'user'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('TERM', 'xterm-256color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/0/vscode-git-4c2c5eb047.sock'), ('CONDA_SHLVL', '1'), ('SHLVL', '3'), ('XDG_SESSION_ID', '1'), ('CONDA_PYTHON_EXE', '/root/miniconda3/bin/python'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('LC_CTYPE', 'C.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('ROS_LOCALHOST_ONLY', '0'), ('SSH_CLIENT', 'fe80::14da:94a5:e690:d416%wlan0 56561 22'), ('CONDA_DEFAULT_ENV', 'base'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/extensions/git/dist/askpass-main.js'), ('BROWSER', '/root/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/bin/helpers/browser.sh'), ('PATH', '/opt/ros/foxy/bin:/root/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/bin/remote-cli:/root/miniconda3/bin:/root/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('ROS_DISTRO', 'foxy'), ('OLDPWD', '/root'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_IPC_HOOK_CLI', '/run/user/0/vscode-ipc-6949f3dc-4668-4bac-8c89-52b71f12c3ac.sock'), ('_', '/usr/bin/env'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.098077] (-) TimerEvent: {}
+[0.199043] (-) TimerEvent: {}
+[0.300028] (-) TimerEvent: {}
+[0.401885] (-) TimerEvent: {}
+[0.503842] (-) TimerEvent: {}
+[0.597010] (imu-ros2node) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.603976] (-) TimerEvent: {}
+[0.704859] (-) TimerEvent: {}
+[0.805928] (-) TimerEvent: {}
+[0.907867] (-) TimerEvent: {}
+[0.928212] (teleop_subscriber) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/teleop_subscriber', 'build', '--build-base', '/root/rf-data-collection/build/teleop_subscriber/build', 'install', '--record', '/root/rf-data-collection/build/teleop_subscriber/install.log', '--install-scripts', '$base/lib/teleop_subscriber', '--single-version-externally-managed', 'install_data'], 'cwd': '/root/rf-data-collection/src/teleop_subscriber', 'env': {'SHELL': '/bin/bash', 'ROS_VERSION': '2', 'COLORTERM': 'truecolor', 'TERM_PROGRAM_VERSION': '1.88.1', 'CONDA_EXE': '/root/miniconda3/bin/conda', 'ROS_PYTHON_VERSION': '3', 'PWD': '/root/rf-data-collection/build/teleop_subscriber', 'LOGNAME': 'root', 'XDG_SESSION_TYPE': 'tty', 'CONDA_PREFIX': '/root/miniconda3', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/node', 'MOTD_SHOWN': 'pam', 'HOME': '/root', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'CONDA_PROMPT_MODIFIER': '(base)', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'GIT_ASKPASS': '/root/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/extensions/git/dist/askpass.sh', 'SSH_CONNECTION': 'fe80::14da:94a5:e690:d416%wlan0 56561 fe80::5080:6366:8d11:131%wlan0 22', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XDG_SESSION_CLASS': 'user', 'PYTHONPATH': '/root/rf-data-collection/build/teleop_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/rf-data-collection/install/teleop_subscriber/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'TERM': 'xterm-256color', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'root', 'VSCODE_GIT_IPC_HANDLE': '/run/user/0/vscode-git-4c2c5eb047.sock', 'CONDA_SHLVL': '1', 'SHLVL': '3', 'XDG_SESSION_ID': '1', 'CONDA_PYTHON_EXE': '/root/miniconda3/bin/python', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'LC_CTYPE': 'C.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/0', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'ROS_LOCALHOST_ONLY': '0', 'SSH_CLIENT': 'fe80::14da:94a5:e690:d416%wlan0 56561 22', 'CONDA_DEFAULT_ENV': 'base', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/extensions/git/dist/askpass-main.js', 'BROWSER': '/root/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/bin/helpers/browser.sh', 'PATH': '/opt/ros/foxy/bin:/root/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/bin/remote-cli:/root/miniconda3/bin:/root/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/0/bus', 'ROS_DISTRO': 'foxy', 'OLDPWD': '/root', 'TERM_PROGRAM': 'vscode', 'VSCODE_IPC_HOOK_CLI': '/run/user/0/vscode-ipc-6949f3dc-4668-4bac-8c89-52b71f12c3ac.sock', '_': '/usr/bin/env'}, 'shell': False}
+[0.948830] (imu-ros2node) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.976852] (imu-ros2node) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.008140] (-) TimerEvent: {}
+[1.109724] (-) TimerEvent: {}
+[1.162864] (teleop_subscriber) StdoutLine: {'line': b'running egg_info\n'}
+[1.165756] (teleop_subscriber) StdoutLine: {'line': b'creating ../../build/teleop_subscriber/teleop_subscriber.egg-info\n'}
+[1.167042] (teleop_subscriber) StdoutLine: {'line': b'writing ../../build/teleop_subscriber/teleop_subscriber.egg-info/PKG-INFO\n'}
+[1.168389] (teleop_subscriber) StdoutLine: {'line': b'writing dependency_links to ../../build/teleop_subscriber/teleop_subscriber.egg-info/dependency_links.txt\n'}
+[1.170163] (teleop_subscriber) StdoutLine: {'line': b'writing entry points to ../../build/teleop_subscriber/teleop_subscriber.egg-info/entry_points.txt\n'}
+[1.171428] (teleop_subscriber) StdoutLine: {'line': b'writing requirements to ../../build/teleop_subscriber/teleop_subscriber.egg-info/requires.txt\n'}
+[1.172691] (teleop_subscriber) StdoutLine: {'line': b'writing top-level names to ../../build/teleop_subscriber/teleop_subscriber.egg-info/top_level.txt\n'}
+[1.173861] (teleop_subscriber) StdoutLine: {'line': b"writing manifest file '../../build/teleop_subscriber/teleop_subscriber.egg-info/SOURCES.txt'\n"}
+[1.199026] (teleop_subscriber) StdoutLine: {'line': b"reading manifest file '../../build/teleop_subscriber/teleop_subscriber.egg-info/SOURCES.txt'\n"}
+[1.200640] (teleop_subscriber) StdoutLine: {'line': b"writing manifest file '../../build/teleop_subscriber/teleop_subscriber.egg-info/SOURCES.txt'\n"}
+[1.201216] (teleop_subscriber) StdoutLine: {'line': b'running build\n'}
+[1.201660] (teleop_subscriber) StdoutLine: {'line': b'running build_py\n'}
+[1.202304] (teleop_subscriber) StdoutLine: {'line': b'creating /root/rf-data-collection/build/teleop_subscriber/build\n'}
+[1.202851] (teleop_subscriber) StdoutLine: {'line': b'creating /root/rf-data-collection/build/teleop_subscriber/build/lib\n'}
+[1.203304] (teleop_subscriber) StdoutLine: {'line': b'creating /root/rf-data-collection/build/teleop_subscriber/build/lib/teleop_subscriber\n'}
+[1.203882] (teleop_subscriber) StdoutLine: {'line': b'copying teleop_subscriber/__init__.py -> /root/rf-data-collection/build/teleop_subscriber/build/lib/teleop_subscriber\n'}
+[1.204867] (teleop_subscriber) StdoutLine: {'line': b'copying teleop_subscriber/cmd_vel_subscriber.py -> /root/rf-data-collection/build/teleop_subscriber/build/lib/teleop_subscriber\n'}
+[1.205318] (teleop_subscriber) StdoutLine: {'line': b'running install\n'}
+[1.205775] (teleop_subscriber) StdoutLine: {'line': b'running install_lib\n'}
+[1.206215] (teleop_subscriber) StdoutLine: {'line': b'creating /root/rf-data-collection/install/teleop_subscriber/lib/python3.8/site-packages/teleop_subscriber\n'}
+[1.206789] (teleop_subscriber) StdoutLine: {'line': b'copying /root/rf-data-collection/build/teleop_subscriber/build/lib/teleop_subscriber/__init__.py -> /root/rf-data-collection/install/teleop_subscriber/lib/python3.8/site-packages/teleop_subscriber\n'}
+[1.207308] (teleop_subscriber) StdoutLine: {'line': b'copying /root/rf-data-collection/build/teleop_subscriber/build/lib/teleop_subscriber/cmd_vel_subscriber.py -> /root/rf-data-collection/install/teleop_subscriber/lib/python3.8/site-packages/teleop_subscriber\n'}
+[1.207891] (teleop_subscriber) StdoutLine: {'line': b'byte-compiling /root/rf-data-collection/install/teleop_subscriber/lib/python3.8/site-packages/teleop_subscriber/__init__.py to __init__.cpython-38.pyc\n'}
+[1.208325] (teleop_subscriber) StdoutLine: {'line': b'byte-compiling /root/rf-data-collection/install/teleop_subscriber/lib/python3.8/site-packages/teleop_subscriber/cmd_vel_subscriber.py to cmd_vel_subscriber.cpython-38.pyc\n'}
+[1.208769] (teleop_subscriber) StdoutLine: {'line': b'running install_data\n'}
+[1.209217] (teleop_subscriber) StdoutLine: {'line': b'creating /root/rf-data-collection/install/teleop_subscriber/share/ament_index\n'}
+[1.209661] (teleop_subscriber) StdoutLine: {'line': b'creating /root/rf-data-collection/install/teleop_subscriber/share/ament_index/resource_index\n'}
+[1.210123] (-) TimerEvent: {}
+[1.210649] (teleop_subscriber) StdoutLine: {'line': b'creating /root/rf-data-collection/install/teleop_subscriber/share/ament_index/resource_index/packages\n'}
+[1.211085] (teleop_subscriber) StdoutLine: {'line': b'copying resource/teleop_subscriber -> /root/rf-data-collection/install/teleop_subscriber/share/ament_index/resource_index/packages\n'}
+[1.211694] (teleop_subscriber) StdoutLine: {'line': b'copying package.xml -> /root/rf-data-collection/install/teleop_subscriber/share/teleop_subscriber\n'}
+[1.212170] (teleop_subscriber) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.212646] (teleop_subscriber) StdoutLine: {'line': b'Copying ../../build/teleop_subscriber/teleop_subscriber.egg-info to /root/rf-data-collection/install/teleop_subscriber/lib/python3.8/site-packages/teleop_subscriber-0.0.0-py3.8.egg-info\n'}
+[1.213098] (teleop_subscriber) StdoutLine: {'line': b'running install_scripts\n'}
+[1.224322] (teleop_subscriber) StdoutLine: {'line': b'Installing cmd_vel_subscriber script to /root/rf-data-collection/install/teleop_subscriber/lib/teleop_subscriber\n'}
+[1.225149] (teleop_subscriber) StdoutLine: {'line': b"writing list of installed files to '/root/rf-data-collection/build/teleop_subscriber/install.log'\n"}
+[1.268347] (teleop_subscriber) CommandEnded: {'returncode': 0}
+[1.310766] (-) TimerEvent: {}
+[1.331324] (teleop_subscriber) JobEnded: {'identifier': 'teleop_subscriber', 'rc': 0}
+[1.360016] (imu-ros2node) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.367370] (imu-ros2node) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.411009] (-) TimerEvent: {}
+[1.512542] (-) TimerEvent: {}
+[1.613742] (-) TimerEvent: {}
+[1.715519] (-) TimerEvent: {}
+[1.782766] (imu-ros2node) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.815791] (-) TimerEvent: {}
+[1.831283] (imu-ros2node) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.832907] (imu-ros2node) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.838201] (imu-ros2node) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.916241] (-) TimerEvent: {}
+[2.018076] (-) TimerEvent: {}
+[2.120058] (-) TimerEvent: {}
+[2.221938] (-) TimerEvent: {}
+[2.230617] (imu-ros2node) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[2.235248] (imu-ros2node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.322264] (-) TimerEvent: {}
+[2.424252] (-) TimerEvent: {}
+[2.526043] (-) TimerEvent: {}
+[2.628123] (-) TimerEvent: {}
+[2.632104] (imu-ros2node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.666678] (imu-ros2node) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.668390] (imu-ros2node) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.675040] (imu-ros2node) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[2.728462] (-) TimerEvent: {}
+[2.742804] (imu-ros2node) StdoutLine: {'line': b'-- Found PythonInterp: /root/miniconda3/bin/python3 (found suitable version "3.12.2", minimum required is "3") \n'}
+[2.744933] (imu-ros2node) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /root/miniconda3/bin/python3\n'}
+[2.828900] (-) TimerEvent: {}
+[2.930818] (-) TimerEvent: {}
+[3.032532] (-) TimerEvent: {}
+[3.101782] (imu-ros2node) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[3.132687] (-) TimerEvent: {}
+[3.183878] (imu-ros2node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.191799] (imu-ros2node) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[3.233060] (-) TimerEvent: {}
+[3.334979] (-) TimerEvent: {}
+[3.436684] (-) TimerEvent: {}
+[3.538216] (-) TimerEvent: {}
+[3.639919] (-) TimerEvent: {}
+[3.741454] (-) TimerEvent: {}
+[3.770465] (imu-ros2node) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[3.841763] (-) TimerEvent: {}
+[3.874615] (imu-ros2node) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[3.942197] (-) TimerEvent: {}
+[4.044040] (-) TimerEvent: {}
+[4.068054] (imu-ros2node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.134771] (imu-ros2node) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[4.136956] (imu-ros2node) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.138496] (imu-ros2node) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[4.144133] (-) TimerEvent: {}
+[4.245545] (-) TimerEvent: {}
+[4.347540] (-) TimerEvent: {}
+[4.449345] (-) TimerEvent: {}
+[4.551579] (-) TimerEvent: {}
+[4.568005] (imu-ros2node) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[4.569109] (imu-ros2node) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.651926] (-) TimerEvent: {}
+[4.753847] (-) TimerEvent: {}
+[4.855808] (-) TimerEvent: {}
+[4.959562] (-) TimerEvent: {}
+[4.999721] (imu-ros2node) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[5.000627] (imu-ros2node) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[5.059881] (-) TimerEvent: {}
+[5.161621] (-) TimerEvent: {}
+[5.263450] (-) TimerEvent: {}
+[5.365439] (-) TimerEvent: {}
+[5.368770] (imu-ros2node) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[5.369894] (imu-ros2node) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[5.465815] (-) TimerEvent: {}
+[5.567014] (-) TimerEvent: {}
+[5.668970] (-) TimerEvent: {}
+[5.770893] (-) TimerEvent: {}
+[5.781366] (imu-ros2node) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[5.791822] (imu-ros2node) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[5.871426] (-) TimerEvent: {}
+[5.973440] (-) TimerEvent: {}
+[6.004691] (imu-ros2node) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[6.073879] (-) TimerEvent: {}
+[6.122786] (imu-ros2node) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[6.174333] (-) TimerEvent: {}
+[6.276291] (-) TimerEvent: {}
+[6.324358] (imu-ros2node) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[6.326573] (imu-ros2node) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[6.328221] (imu-ros2node) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /root/rf-data-collection/src/imu-ros2node/./include\n'}
+[6.329376] (imu-ros2node) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[6.330933] (imu-ros2node) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[6.332219] (imu-ros2node) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[6.333363] (imu-ros2node) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.334476] (imu-ros2node) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[6.335689] (imu-ros2node) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[6.336892] (imu-ros2node) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.339614] (imu-ros2node) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.355555] (imu-ros2node) StdoutLine: {'line': b'-- Generating done\n'}
+[6.362109] (imu-ros2node) StdoutLine: {'line': b'-- Build files have been written to: /root/rf-data-collection/build/imu-ros2node\n'}
+[6.376829] (-) TimerEvent: {}
+[6.382884] (imu-ros2node) CommandEnded: {'returncode': 0}
+[6.389164] (imu-ros2node) JobProgress: {'identifier': 'imu-ros2node', 'progress': 'build'}
+[6.401785] (imu-ros2node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/rf-data-collection/build/imu-ros2node', '--', '-j8', '-l8'], 'cwd': '/root/rf-data-collection/build/imu-ros2node', 'env': OrderedDict([('SHELL', '/bin/bash'), ('ROS_VERSION', '2'), ('COLORTERM', 'truecolor'), ('TERM_PROGRAM_VERSION', '1.88.1'), ('CONDA_EXE', '/root/miniconda3/bin/conda'), ('ROS_PYTHON_VERSION', '3'), ('PWD', '/root/rf-data-collection/build/imu-ros2node'), ('LOGNAME', 'root'), ('XDG_SESSION_TYPE', 'tty'), ('CONDA_PREFIX', '/root/miniconda3'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/node'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('GIT_ASKPASS', '/root/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/extensions/git/dist/askpass.sh'), ('SSH_CONNECTION', 'fe80::14da:94a5:e690:d416%wlan0 56561 fe80::5080:6366:8d11:131%wlan0 22'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XDG_SESSION_CLASS', 'user'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('TERM', 'xterm-256color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/0/vscode-git-4c2c5eb047.sock'), ('CONDA_SHLVL', '1'), ('SHLVL', '3'), ('XDG_SESSION_ID', '1'), ('CONDA_PYTHON_EXE', '/root/miniconda3/bin/python'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('LC_CTYPE', 'C.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('ROS_LOCALHOST_ONLY', '0'), ('SSH_CLIENT', 'fe80::14da:94a5:e690:d416%wlan0 56561 22'), ('CONDA_DEFAULT_ENV', 'base'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/extensions/git/dist/askpass-main.js'), ('BROWSER', '/root/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/bin/helpers/browser.sh'), ('PATH', '/opt/ros/foxy/bin:/root/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/bin/remote-cli:/root/miniconda3/bin:/root/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('ROS_DISTRO', 'foxy'), ('OLDPWD', '/root'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_IPC_HOOK_CLI', '/run/user/0/vscode-ipc-6949f3dc-4668-4bac-8c89-52b71f12c3ac.sock'), ('_', '/usr/bin/env'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[6.477188] (-) TimerEvent: {}
+[6.579080] (-) TimerEvent: {}
+[6.661024] (imu-ros2node) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target imu-ros2node\x1b[0m\n'}
+[6.662788] (imu-ros2node) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target imu-ros2test\x1b[0m\n'}
+[6.679318] (-) TimerEvent: {}
+[6.780881] (-) TimerEvent: {}
+[6.824797] (imu-ros2node) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/imu-ros2test.dir/src/imu_node_test.cpp.o\x1b[0m\n'}
+[6.865877] (imu-ros2node) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/imu-ros2node.dir/src/imu_node.cpp.o\x1b[0m\n'}
+[6.881084] (-) TimerEvent: {}
+[6.982331] (-) TimerEvent: {}
+[7.084512] (-) TimerEvent: {}
+[7.186135] (-) TimerEvent: {}
+[7.288030] (-) TimerEvent: {}
+[7.389869] (-) TimerEvent: {}
+[7.491550] (-) TimerEvent: {}
+[7.593518] (-) TimerEvent: {}
+[7.695338] (-) TimerEvent: {}
+[7.796937] (-) TimerEvent: {}
+[7.898762] (-) TimerEvent: {}
+[8.000400] (-) TimerEvent: {}
+[8.101818] (-) TimerEvent: {}
+[8.203623] (-) TimerEvent: {}
+[8.305430] (-) TimerEvent: {}
+[8.406933] (-) TimerEvent: {}
+[8.507911] (-) TimerEvent: {}
+[8.609524] (-) TimerEvent: {}
+[8.711470] (-) TimerEvent: {}
+[8.813564] (-) TimerEvent: {}
+[8.915544] (-) TimerEvent: {}
+[9.017457] (-) TimerEvent: {}
+[9.119190] (-) TimerEvent: {}
+[9.221154] (-) TimerEvent: {}
+[9.323473] (-) TimerEvent: {}
+[9.425324] (-) TimerEvent: {}
+[9.527334] (-) TimerEvent: {}
+[9.629205] (-) TimerEvent: {}
+[9.730670] (-) TimerEvent: {}
+[9.832879] (-) TimerEvent: {}
+[9.934825] (-) TimerEvent: {}
+[10.036872] (-) TimerEvent: {}
+[10.138728] (-) TimerEvent: {}
+[10.240466] (-) TimerEvent: {}
+[10.341976] (-) TimerEvent: {}
+[10.443480] (-) TimerEvent: {}
+[10.545172] (-) TimerEvent: {}
+[10.646906] (-) TimerEvent: {}
+[10.748837] (-) TimerEvent: {}
+[10.850609] (-) TimerEvent: {}
+[10.916140] (imu-ros2node) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable imu-ros2node\x1b[0m\n'}
+[10.950869] (-) TimerEvent: {}
+[11.052044] (-) TimerEvent: {}
+[11.153729] (-) TimerEvent: {}
+[11.255685] (-) TimerEvent: {}
+[11.357229] (-) TimerEvent: {}
+[11.358873] (imu-ros2node) StdoutLine: {'line': b'[ 75%] Built target imu-ros2node\n'}
+[11.457890] (-) TimerEvent: {}
+[11.559874] (-) TimerEvent: {}
+[11.661815] (-) TimerEvent: {}
+[11.763516] (-) TimerEvent: {}
+[11.865576] (-) TimerEvent: {}
+[11.967473] (-) TimerEvent: {}
+[12.069069] (-) TimerEvent: {}
+[12.170856] (-) TimerEvent: {}
+[12.211977] (imu-ros2node) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable imu-ros2test\x1b[0m\n'}
+[12.271404] (-) TimerEvent: {}
+[12.373404] (-) TimerEvent: {}
+[12.475386] (-) TimerEvent: {}
+[12.577230] (-) TimerEvent: {}
+[12.672220] (imu-ros2node) StdoutLine: {'line': b'[100%] Built target imu-ros2test\n'}
+[12.677427] (-) TimerEvent: {}
+[12.754218] (imu-ros2node) CommandEnded: {'returncode': 0}
+[12.757756] (imu-ros2node) JobProgress: {'identifier': 'imu-ros2node', 'progress': 'install'}
+[12.777667] (-) TimerEvent: {}
+[12.800424] (imu-ros2node) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/rf-data-collection/build/imu-ros2node'], 'cwd': '/root/rf-data-collection/build/imu-ros2node', 'env': OrderedDict([('SHELL', '/bin/bash'), ('ROS_VERSION', '2'), ('COLORTERM', 'truecolor'), ('TERM_PROGRAM_VERSION', '1.88.1'), ('CONDA_EXE', '/root/miniconda3/bin/conda'), ('ROS_PYTHON_VERSION', '3'), ('PWD', '/root/rf-data-collection/build/imu-ros2node'), ('LOGNAME', 'root'), ('XDG_SESSION_TYPE', 'tty'), ('CONDA_PREFIX', '/root/miniconda3'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/node'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('GIT_ASKPASS', '/root/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/extensions/git/dist/askpass.sh'), ('SSH_CONNECTION', 'fe80::14da:94a5:e690:d416%wlan0 56561 fe80::5080:6366:8d11:131%wlan0 22'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XDG_SESSION_CLASS', 'user'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('TERM', 'xterm-256color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/0/vscode-git-4c2c5eb047.sock'), ('CONDA_SHLVL', '1'), ('SHLVL', '3'), ('XDG_SESSION_ID', '1'), ('CONDA_PYTHON_EXE', '/root/miniconda3/bin/python'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('LC_CTYPE', 'C.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('ROS_LOCALHOST_ONLY', '0'), ('SSH_CLIENT', 'fe80::14da:94a5:e690:d416%wlan0 56561 22'), ('CONDA_DEFAULT_ENV', 'base'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/extensions/git/dist/askpass-main.js'), ('BROWSER', '/root/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/bin/helpers/browser.sh'), ('PATH', '/opt/ros/foxy/bin:/root/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/bin/remote-cli:/root/miniconda3/bin:/root/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('ROS_DISTRO', 'foxy'), ('OLDPWD', '/root'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_IPC_HOOK_CLI', '/run/user/0/vscode-ipc-6949f3dc-4668-4bac-8c89-52b71f12c3ac.sock'), ('_', '/usr/bin/env'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[12.850987] (imu-ros2node) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.853026] (imu-ros2node) StdoutLine: {'line': b'-- Installing: /root/rf-data-collection/install/imu-ros2node/lib/imu-ros2node/imu-ros2node\n'}
+[12.854247] (imu-ros2node) StdoutLine: {'line': b'-- Set runtime path of "/root/rf-data-collection/install/imu-ros2node/lib/imu-ros2node/imu-ros2node" to ""\n'}
+[12.855493] (imu-ros2node) StdoutLine: {'line': b'-- Installing: /root/rf-data-collection/install/imu-ros2node/lib/imu-ros2node/imu-ros2test\n'}
+[12.857312] (imu-ros2node) StdoutLine: {'line': b'-- Set runtime path of "/root/rf-data-collection/install/imu-ros2node/lib/imu-ros2node/imu-ros2test" to ""\n'}
+[12.859728] (imu-ros2node) StdoutLine: {'line': b'-- Installing: /root/rf-data-collection/install/imu-ros2node/share/ament_index/resource_index/package_run_dependencies/imu-ros2node\n'}
+[12.861328] (imu-ros2node) StdoutLine: {'line': b'-- Installing: /root/rf-data-collection/install/imu-ros2node/share/ament_index/resource_index/parent_prefix_path/imu-ros2node\n'}
+[12.862504] (imu-ros2node) StdoutLine: {'line': b'-- Installing: /root/rf-data-collection/install/imu-ros2node/share/imu-ros2node/environment/ament_prefix_path.sh\n'}
+[12.863834] (imu-ros2node) StdoutLine: {'line': b'-- Installing: /root/rf-data-collection/install/imu-ros2node/share/imu-ros2node/environment/ament_prefix_path.dsv\n'}
+[12.865704] (imu-ros2node) StdoutLine: {'line': b'-- Installing: /root/rf-data-collection/install/imu-ros2node/share/imu-ros2node/environment/path.sh\n'}
+[12.868055] (imu-ros2node) StdoutLine: {'line': b'-- Installing: /root/rf-data-collection/install/imu-ros2node/share/imu-ros2node/environment/path.dsv\n'}
+[12.873969] (imu-ros2node) StdoutLine: {'line': b'-- Installing: /root/rf-data-collection/install/imu-ros2node/share/imu-ros2node/local_setup.bash\n'}
+[12.877865] (-) TimerEvent: {}
+[12.879261] (imu-ros2node) StdoutLine: {'line': b'-- Installing: /root/rf-data-collection/install/imu-ros2node/share/imu-ros2node/local_setup.sh\n'}
+[12.880791] (imu-ros2node) StdoutLine: {'line': b'-- Installing: /root/rf-data-collection/install/imu-ros2node/share/imu-ros2node/local_setup.zsh\n'}
+[12.882170] (imu-ros2node) StdoutLine: {'line': b'-- Installing: /root/rf-data-collection/install/imu-ros2node/share/imu-ros2node/local_setup.dsv\n'}
+[12.883640] (imu-ros2node) StdoutLine: {'line': b'-- Installing: /root/rf-data-collection/install/imu-ros2node/share/imu-ros2node/package.dsv\n'}
+[12.885090] (imu-ros2node) StdoutLine: {'line': b'-- Installing: /root/rf-data-collection/install/imu-ros2node/share/ament_index/resource_index/packages/imu-ros2node\n'}
+[12.886654] (imu-ros2node) StdoutLine: {'line': b'-- Installing: /root/rf-data-collection/install/imu-ros2node/share/imu-ros2node/cmake/imu-ros2nodeConfig.cmake\n'}
+[12.888333] (imu-ros2node) StdoutLine: {'line': b'-- Installing: /root/rf-data-collection/install/imu-ros2node/share/imu-ros2node/cmake/imu-ros2nodeConfig-version.cmake\n'}
+[12.889822] (imu-ros2node) StdoutLine: {'line': b'-- Installing: /root/rf-data-collection/install/imu-ros2node/share/imu-ros2node/package.xml\n'}
+[12.891263] (imu-ros2node) CommandEnded: {'returncode': 0}
+[12.958427] (imu-ros2node) JobEnded: {'identifier': 'imu-ros2node', 'rc': 0}
+[12.963358] (-) EventReactorShutdown: {}

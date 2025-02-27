@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "imu-ros2node",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "imu-ros2node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-imu-ros2node-d9486c54896c7456d6a0.json",
+					"name" : "imu-ros2node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "imu-ros2node_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-imu-ros2node_uninstall-7a281069be4f19410bd9.json",
+					"name" : "imu-ros2node_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "imu-ros2test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-imu-ros2test-21bf8f11c13c9258ed75.json",
+					"name" : "imu-ros2test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-02aa9799a1d3d1982422.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/qcomm_ws/src/build/imu-ros2node",
+		"source" : "/root/qcomm_ws/src/imu-ros2node"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

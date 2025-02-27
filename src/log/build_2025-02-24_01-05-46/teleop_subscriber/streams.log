@@ -1,0 +1,21 @@
+[0.806s] Invoking command in '/root/qcomm_ws/src/teleop_subscriber': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/root/qcomm_ws/src/build/teleop_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/qcomm_ws/src/install/teleop_subscriber/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/teleop_subscriber build --build-base /root/qcomm_ws/src/build/teleop_subscriber/build install --record /root/qcomm_ws/src/build/teleop_subscriber/install.log --install-scripts $base/lib/teleop_subscriber --single-version-externally-managed install_data
+[1.020s] running egg_info
+[1.021s] writing ../build/teleop_subscriber/teleop_subscriber.egg-info/PKG-INFO
+[1.023s] writing dependency_links to ../build/teleop_subscriber/teleop_subscriber.egg-info/dependency_links.txt
+[1.024s] writing entry points to ../build/teleop_subscriber/teleop_subscriber.egg-info/entry_points.txt
+[1.025s] writing requirements to ../build/teleop_subscriber/teleop_subscriber.egg-info/requires.txt
+[1.026s] writing top-level names to ../build/teleop_subscriber/teleop_subscriber.egg-info/top_level.txt
+[1.053s] reading manifest file '../build/teleop_subscriber/teleop_subscriber.egg-info/SOURCES.txt'
+[1.054s] writing manifest file '../build/teleop_subscriber/teleop_subscriber.egg-info/SOURCES.txt'
+[1.056s] running build
+[1.058s] running build_py
+[1.059s] running install
+[1.060s] running install_lib
+[1.061s] running install_data
+[1.062s] running install_egg_info
+[1.063s] removing '/root/qcomm_ws/src/install/teleop_subscriber/lib/python3.8/site-packages/teleop_subscriber-0.0.0-py3.8.egg-info' (and everything under it)
+[1.065s] Copying ../build/teleop_subscriber/teleop_subscriber.egg-info to /root/qcomm_ws/src/install/teleop_subscriber/lib/python3.8/site-packages/teleop_subscriber-0.0.0-py3.8.egg-info
+[1.066s] running install_scripts
+[1.078s] Installing cmd_vel_subscriber script to /root/qcomm_ws/src/install/teleop_subscriber/lib/teleop_subscriber
+[1.079s] writing list of installed files to '/root/qcomm_ws/src/build/teleop_subscriber/install.log'
+[1.131s] Invoked command in '/root/qcomm_ws/src/teleop_subscriber' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/root/qcomm_ws/src/build/teleop_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/qcomm_ws/src/install/teleop_subscriber/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/teleop_subscriber build --build-base /root/qcomm_ws/src/build/teleop_subscriber/build install --record /root/qcomm_ws/src/build/teleop_subscriber/install.log --install-scripts $base/lib/teleop_subscriber --single-version-externally-managed install_data
