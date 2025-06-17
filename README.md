@@ -68,4 +68,5 @@ ros2 run teleop_subscriber cmd_vel_subscriber
 
 ## Notes
 - Maintained by [Soumi Chakraborty](linkedin.com/in/soumi-chakraborty-a5365b1a7/).
--  Some of these utilities rely on other ROS topics (e.g., `/image_raw`, `/cmd_vel`). Please check the source code for each utility to understand its dependencies and ensure the required publishers are running.
+- Some of these utilities rely on other ROS topics (e.g., `/image_raw`, `/cmd_vel`). Please check the source code for each utility to understand its dependencies and ensure the required publishers are running.
+- Refer to [https://github.com/boredtea/orb_slam_docker](https://github.com/boredtea/orb_slam_docker) for a containerized version of ORB SLAM to build a complete map.
