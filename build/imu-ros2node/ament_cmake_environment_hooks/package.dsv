@@ -1,4 +1,0 @@
-source;share/imu-ros2node/local_setup.bash
-source;share/imu-ros2node/local_setup.dsv
-source;share/imu-ros2node/local_setup.sh
-source;share/imu-ros2node/local_setup.zsh

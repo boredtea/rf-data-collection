@@ -1,5 +1,0 @@
-[console_scripts]
-camera_viewer = utils.camera_viewer:main
-map_saver = utils.map_saver:main
-video_recorder = utils.video_recorder:main
-
