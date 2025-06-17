@@ -1,0 +1,26 @@
+[1.233s] Invoking command in '/root/rf-data-collection/src/utils': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/root/rf-data-collection/build/utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/rf-data-collection/install/utils/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/utils build --build-base /root/rf-data-collection/build/utils/build install --record /root/rf-data-collection/build/utils/install.log --single-version-externally-managed install_data
+[1.470s] running egg_info
+[1.472s] writing ../../build/utils/utils.egg-info/PKG-INFO
+[1.474s] writing dependency_links to ../../build/utils/utils.egg-info/dependency_links.txt
+[1.475s] writing entry points to ../../build/utils/utils.egg-info/entry_points.txt
+[1.476s] writing requirements to ../../build/utils/utils.egg-info/requires.txt
+[1.477s] writing top-level names to ../../build/utils/utils.egg-info/top_level.txt
+[1.501s] reading manifest file '../../build/utils/utils.egg-info/SOURCES.txt'
+[1.504s] writing manifest file '../../build/utils/utils.egg-info/SOURCES.txt'
+[1.506s] running build
+[1.509s] running build_py
+[1.511s] copying utils/video_recorder.py -> /root/rf-data-collection/build/utils/build/lib/utils
+[1.512s] running install
+[1.513s] running install_lib
+[1.515s] copying /root/rf-data-collection/build/utils/build/lib/utils/video_recorder.py -> /root/rf-data-collection/install/utils/lib/python3.8/site-packages/utils
+[1.516s] byte-compiling /root/rf-data-collection/install/utils/lib/python3.8/site-packages/utils/video_recorder.py to video_recorder.cpython-38.pyc
+[1.525s] running install_data
+[1.526s] running install_egg_info
+[1.528s] removing '/root/rf-data-collection/install/utils/lib/python3.8/site-packages/utils-0.0.0-py3.8.egg-info' (and everything under it)
+[1.529s] Copying ../../build/utils/utils.egg-info to /root/rf-data-collection/install/utils/lib/python3.8/site-packages/utils-0.0.0-py3.8.egg-info
+[1.531s] running install_scripts
+[1.532s] Installing camera_viewer script to /root/rf-data-collection/install/utils/lib/utils
+[1.532s] Installing map_saver script to /root/rf-data-collection/install/utils/lib/utils
+[1.533s] Installing video_recorder script to /root/rf-data-collection/install/utils/lib/utils
+[1.534s] writing list of installed files to '/root/rf-data-collection/build/utils/install.log'
+[1.585s] Invoked command in '/root/rf-data-collection/src/utils' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/root/rf-data-collection/build/utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/rf-data-collection/install/utils/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/utils build --build-base /root/rf-data-collection/build/utils/build install --record /root/rf-data-collection/build/utils/install.log --single-version-externally-managed install_data

@@ -1,1 +1,1 @@
-/opt/ros/foxy
+/root/rf-data-collection/src/install/teleop_subscriber:/root/rf-data-collection/src/install/imu-ros2node:/root/rf-data-collection/src/install/camera_subscriber:/root/rf-data-collection/install/teleop_subscriber:/root/rf-data-collection/install/imu-ros2node:/root/rf-data-collection/install/camera_subscriber:/root/rf-data-collection/src/install/image_subscriber_test:/opt/ros/foxy
